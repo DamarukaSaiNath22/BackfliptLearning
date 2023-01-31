@@ -216,3 +216,13 @@
 
 # echo "before exit"
 
+
+#command for deleting unnecessary text files
+
+
+
+# for i in {1..3}
+# do
+# rm $i.$i.txt
+# done
+
