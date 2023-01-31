@@ -166,20 +166,20 @@
 
 # cat > 1.1.txt
 
-i=1
-temp=1
-while [ $i -lt  6 ]
-do 
-j=1
-while [ $j -le $i ]
-do 
-echo -n $temp ""
-((temp++))
-j=`expr $j + 1`
-done
-i=`expr $i + 1`
-echo 
-done
+# i=1
+# temp=1
+# while [ $i -lt  6 ]
+# do 
+# j=1
+# while [ $j -le $i ]
+# do 
+# echo -n $temp ""
+# ((temp++))
+# j=`expr $j + 1`
+# done
+# i=`expr $i + 1`
+# echo 
+# done
 
 
 
@@ -203,4 +203,16 @@ done
 # echo $i
 # done
 
+
+
+# my_var=""
+# if [ -!z "$my_var" ]
+# then
+#       echo "\$my_var is NULL"
+# else
+#       echo "\$my_var is NOT NULL"
+# fi
+
+
+# echo "before exit"
 
